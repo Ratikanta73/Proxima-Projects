@@ -516,7 +516,7 @@
         {
             "id": "11",
             "logo": "t11.png",
-            "category": ["iot","surveillance","AI","Industry Healthcare"],
+            "category": ["iot","surveillance","AI","IndustryHealthcare"],
             "title": "Safe-T Band",
             "description": "Industrial workers face risks from extreme conditions, while existing safety measures are reactive and impersonal. Female health needs, like fatigue and menstrual care, are often ignored. A real-time monitoring system is essential to proactively address environmental hazards and personal health concerns, ensuring workplace safety.",
             "technologies": [

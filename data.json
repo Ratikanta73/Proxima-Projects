@@ -1,0 +1,1523 @@
+{
+    "coordinator": [
+        {
+            "id": "1",
+            "img": "1.webp",
+            "name": "Dr. Anukampa Behera",
+            "designation": "Proxima Project Coordinator",
+            "department": "Asst. Professor, Siksha O Anusandhan University, Bhubaneswar"
+        },
+        {
+            "id": "2",
+            "img": "2.webp",
+            "name": "Prof. Gyana Ranjan Patra",
+            "designation": "Department ECE",
+            "department": "Asst. Professor, Siksha O Anusandhan University, Bhubaneswar"
+        },
+        {
+            "id": "3",
+            "img": "3.webp",
+            "name": "Dr. Sikata Samantray",
+            "designation": "Department ME",
+            "department": "Professor, Siksha O Anusandhan University, Bhubaneswar"
+        }
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "logo": "t1.png",
+            "category": ["iot","ai"],
+            "title": "Avani",
+            "description": "AVANI uses GIS and IoT sensors to collect urban data, analyzed by ML algorithms to identify optimal zones for tree plantations and sustainable construction. It generates 3D models and automated reports, aiding planners in enhancing greenery, reducing heat islands, and improving sustainability.",
+            "technologies": [
+                "GIS mapping",
+                "IoT sensors ",
+                "ML algorithms",
+                "Cloud-Based Platform",
+                "3D visualization"
+            ],
+            "video": "https://www.youtube.com/embed/jDlKATUyUQI?si=ryoo6TwlSpq2UeEB",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Guru Prasad Panda",
+                    "role": "IoT & ML Developer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Ratikanta Behera",
+                    "role": "UI/UX Designer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Smruti Rani Pradhan",
+                    "role": "Frontend Developer"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "logo": "t2.png",
+            "category": ["cybersecurity"],
+            "title": "ThreatSentry",
+            "description": "The project addresses the need for a comprehensive cybersecurity solution by integrating Intrusion Detection (IDS) and Intrusion Prevention (IPS) systems with a custom Sysmon script. This solution enhances threat detection, real-time monitoring, and incident response, utilizing Wazuh, TheHive, and Cassandra for scalable security management.",
+            "technologies": [
+                "Sysmon (System Monitor)",
+                "TheHive",
+                "Cassandra",
+                "Custom Sysmon Script",
+                "Wazuh"
+            ],
+            "video": "https://www.youtube.com/embed/u4bjIh9y6GU?si=qtM-x0JfTMH07uZf",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.webp",
+                    "name": "Ankit Subhamjyoti",
+                    "role": "CyberSecurity, Cloud, Deployment Integration of Ecosystem"
+                },
+                {
+                    "id": "2",
+                    "image": "2.png",
+                    "name": "Rohan Kumar Behera",
+                    "role": "Cloud"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "logo": "t3.png",
+            "category": ["iot","healthcare"],
+            "title": "AngioSense",
+            "description": "AngioSense combines PPG and Bio-Impedance technologies to detect blood flow issues and blockages. IoT sensors track SpO2, temperature, and pulse rate, sending data to the cloud for AI-driven analysis. Automated diagnostic reports are accessible via web and mobile apps, enabling real-time healthcare monitoring.",
+            "technologies": [
+                "MERN",
+                "Flutter",
+                "AWS DynamoDB",
+                "AWS Sagemaker",
+                "ESP32",
+                "MAX30102",
+                "AD620(AC to DC Amplifier)",
+                "Electrodes."
+            ],
+            "video": "https://www.youtube.com/embed/jAw8fA9a-oM?si=-bXfW3EUj8H5nMaT",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.webp",
+                    "name": "Suraj Kumar Sahu",
+                    "role": "App Developer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Atharva Jitendra Deshmukh",
+                    "role": "IoT Developer"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "logo": "t4.png",
+            "category": ["iot"],
+            "title": "Rakshati",
+            "description": "Vehicular accidents cause preventable fatalities due to delayed emergency response, lack of nearby assistance, and unaffordable safety solutions. Rakshati addresses these challenges with an innovative, accessible, and life-saving device.",
+            "technologies": [
+                "Hardware: ESP32",
+                "MPU6050 (Accelerometer & Gyroscope)",
+                "Tilt Sensor",
+                "GPS Module",
+                "Wi-Fi (ESP32).\nSoftware: Arduino IDE",
+                "I2C (MPU6050)",
+                "UART (GPS)",
+                "Wi-Fi for data transmission."
+            ],
+            "video": "https://www.youtube.com/embed/k8Ds7im3eLA?si=_jnJUSLwmnbnQ7tk",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Raj Sahasransu Biswal",
+                    "role": "IOT Developer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Runjhun Padhan",
+                    "role": "Cloud"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Ankush Chaudhary",
+                    "role": "UI/UX and Research and Development"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "logo": "t5.png",
+            "category": ["ai","fullstack"],
+            "title": "Eco Scrap",
+            "description": "Waste management and scrap resale are unorganized, causing unfair pricing, excessive waste, and environmental issues. Individuals sell scrap cheaply, reusable items go to waste, and businesses struggle with bulk sales. Public waste accumulation persists due to the lack of an efficient complaint system, worsening cleanliness and sustainability\u00a0challenges",
+            "technologies": [
+                "Spring boot ",
+                "Next js ",
+                "Reactjs ",
+                "cloud - Aws s3"
+            ],
+            "video": "https://www.youtube.com/embed/iNAf8BCKbb8?si=RMsM-iluejksGN9F",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.png",
+                    "name": "Lucky Kumar Swain ",
+                    "role": "Frontend Developer and AI ML"
+                },
+                {
+                    "id": "2",
+                    "image": "2.png",
+                    "name": "Aditya Sahu",
+                    "role": "Backend Developer"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "logo": "t6.png",
+            "category": ["iot","ai"],
+            "title": "Prevenix",
+            "description": "Impact of Unexpected Industrial Equipment Failures on Operational Efficiency and Cost Management in Industries",
+            "technologies": [
+                "React",
+                "AWS",
+                "IOT devices",
+                "Arduino idle"
+            ],
+            "video": "https://www.youtube.com/embed/Ga875pkGcSU?si=ApOOt-5WFEY7LM7k",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Vaibhav Mahapatra",
+                    "role": "Frontend Developer and Arduino Coding"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Abhishek Anand",
+                    "role": "AWS Integration and Backend Developer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Rudra Narayan Nayak",
+                    "role": "Arduino Coding and Research"
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "logo": "t7.png",
+            "category": ["ai","agriculture"],
+            "title": "Bhumicare",
+            "description": "Traditional farming faces inefficient water and fertilizer usage, declining soil health, unpredictable weather, and financial losses due to lack of real-time insights. Farmers rely on guesswork, leading to resource wastage and reduced productivity. A smart, AI-driven solution is needed to make agriculture more efficient and sustainable.",
+            "technologies": [
+                "IoT Sensors",
+                "ESP8266",
+                "MySQL",
+                "RandomForest",
+                "AWS Cloud",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Chart.js"
+            ],
+            "video": "https://www.youtube.com/embed/5FJnu579Ymo?si=-ZXZOs8zZ0KjLRyO",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Vivek Ranjan Sahoo",
+                    "role": "IoT Developer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Sukanya Ojha",
+                    "role": "Web Developer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Abhinav Aryan",
+                    "role": "ML Developer"
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "logo": "t8.png",
+            "category": ["iot","healthcare"],
+            "title": "Mavex",
+            "description": "",
+            "technologies": [
+                "IoT Sensors",
+                "ESP8266",
+                "MySQL",
+                "RandomForest",
+                "AWS Cloud",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Chart.js"
+            ],
+            "video": "https://www.youtube.com/embed/_IJvHyz7HyU?si=ZwosmHs3LLOYZNfK",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpeg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpeg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpeg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Dyutiraditya Patri",
+                    "role": ""
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Diksha Jethwa",
+                    "role": ""
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "logo": "t9.png",
+            "category": ["iot","agriculture"],
+            "title": "Smart-Bloom",
+            "description": "The decline of natural pollinators like bees and butterflies due to habitat loss, pesticides, and climate change threatens global food production. Smart-Bloom addresses this challenge by providing an autonomous, efficient, and technology-driven solution for cross-pollination, ensuring sustainable and consistent crop yields.",
+            "technologies": [
+                "Arduino",
+                "ESP32",
+                "YOLO",
+                "TensorFlow",
+                "JavaScript",
+                "CSS",
+                "C Language"
+            ],
+            "video": "https://www.youtube.com/embed/mC2A-DRkGro?si=V-C-nXqQIvZpR28p",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpeg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpeg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Avnish Kumar",
+                    "role": "Hardware Programmer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Ankit Kumar",
+                    "role": "Backend Developer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Sarbani Barad",
+                    "role": "Frontend Developer"
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "logo": "t10.png",
+            "category": ["ai","fullstack"],
+            "title": "Cryonics",
+            "description": "Parents face challenges in interpreting infant cries, leading to stress and potential delays in identifying developmental disorders. Support for underprivileged families; Accessing reliable information is difficult, and impacting parental mental health and leading to either neglect or excessive medical consultations.",
+            "technologies": [
+                "Python",
+                "Flask",
+                "MongoDB",
+                "Flask-PyMongo",
+                "Librosa",
+                "Joblib",
+                "OpenCV",
+                "MediaPipe",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "NumPy",
+                "pandas",
+                "scikit-learn",
+                "imbalanced-learn (SMOTE)"
+            ],
+            "video": "https://www.youtube.com/embed/3WDbCddBqBE?si=BseWyAXP-q3bj6TU",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.png",
+                    "name": "Shubham Mohanty",
+                    "role": "Frontend, Backend, Machine Learning, Research"
+                },
+                {
+                    "id": "2",
+                    "image": "2.png",
+                    "name": "Rahul Mallik",
+                    "role": "Frontend, Backend, Machine Learning"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Abhay Prakash",
+                    "role": "Research"
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "logo": "t11.png",
+            "category": ["iot","surveillance"],
+            "title": "Safe-T Band",
+            "description": "Industrial workers face risks from extreme conditions, while existing safety measures are reactive and impersonal. Female health needs, like fatigue and menstrual care, are often ignored. A real-time monitoring system is essential to proactively address environmental hazards and personal health concerns, ensuring workplace safety.",
+            "technologies": [
+                "ESP32 Microcontroller with RTOS",
+                "MAX30102 Sensor",
+                "Temperature Sensors",
+                "DHT11 Sensors",
+                "MQ135 Gas Sensor",
+                "Raspberry Pi Central Hub",
+                "Power Management System",
+                "Spring Boot",
+                "MongoDB",
+                "GraphQL Subscriptions",
+                "MQTT Integration",
+                "RESTful APIs",
+                "React with Redux",
+                "AI-powered Analytics"
+            ],
+            "video": "https://www.youtube.com/embed/wqHHFJp8-tE?si=JmxlWcyY1yGAdef1",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.png",
+                    "name": "Ashish Kumar Samantaray",
+                    "role": "AI and Backend developer "
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Kamallochan Das",
+                    "role": "IoT Developer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Anubhav Jaiswal",
+                    "role": "Backend & Real-time System Integration Engineer"
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "logo": "t12.jpeg",
+            "category": ["ai"],
+            "title": "TaskFlow.ai",
+            "description": "Manual task distribution in modern offices often leads to inefficiencies like overburdening or underutilizing employees and mismatched assignments. Varying roles, skills, and workloads make this process complex and time-consuming, highlighting the need for a smarter, automated solution to optimize task allocation and ensure balanced workloads.",
+            "technologies": [
+                "React",
+                "Tailwind",
+                "JavaScript",
+                "Flask",
+                "SQLite",
+                "Pandas",
+                "Scikit-Learn"
+            ],
+            "video": "https://www.youtube.com/embed/ebPCy4VMTRM?si=fvidYdxAGYThFcZE",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpeg",
+                    "name": "Debopriyo Roy",
+                    "role": "Full Stack Developer, MLOps Engineer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Shweta Rani Sahoo",
+                    "role": "ML Engineer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Aniket Roy",
+                    "role": "Full Stack Developer"
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "logo": "t13.png",
+            "category": ["ai"],
+            "title": "MindEase",
+            "description": "Despite the rising prevalence of mental health challenges globally, access to professional support remains constrained by multiple barriers. Limited availability of mental health professionals, prohibitive costs, social stigma, and geographical limitations prevent individuals from receiving timely intervention and continuous psychological support when needed.",
+            "technologies": [
+                "ReactJS (Vite)",
+                "TailwindCSS",
+                "Material UI",
+                "FastAPI",
+                "MongoDB (Atlas)",
+                "HuggingFace Transformers",
+                "PyTorch",
+                "XGBoost (CPU-bound)",
+                "BeautifulSoup4",
+                "Requests",
+                "Clerk API",
+                "Web3Forms API",
+                "Figma",
+                "ibis Paint X"
+            ],
+            "video": "https://www.youtube.com/embed/yqM9YQl4vP0?si=A7S-83De_eX-b-1E",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.png"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.png"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.png"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Prateek Mohapatra",
+                    "role": "Backend Developer + ML Engineer + UI/UX Designer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Jyotiraditya Swain",
+                    "role": "Frontend Developer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Amlan Sahu",
+                    "role": "Data Collection and Research"
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "logo": "t14.png",
+            "category": ["iot","ai","system"],
+            "title": "CIPER",
+            "description": "Rising road accidents due to delayed driver response, poor situational awareness, and ineffective collision prediction highlight the need for a cost-effective, intelligent safety system. Existing ADAS solutions rely on expensive LiDAR/RADAR, making them inaccessible for mid-range vehicles and slowing adoption.",
+            "technologies": [
+                "YOLO",
+                "OpenCV",
+                "Raspberry Pi",
+                "TensorFlow",
+                "Streamlit"
+            ],
+            "video": "https://www.youtube.com/embed/JgGJZyOfPIo?si=gs3JoWeXsV_aDxP2",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Kaibalya Mohapatra",
+                    "role": "Team Lead & AI/ML Developer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Mukesh Kumar Padhi",
+                    "role": "AI/ML & Web Developer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Priyanshu Kumar Behera",
+                    "role": "IoT Developer"
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "logo": "t15.jpg",
+            "category": ["ai"],
+            "title": "AI Resume Builder",
+            "description": "1.Traditional and not so ATS-friendly resume generators .\n2. Resumes generated by various LLMs lack customization and SaaS-grade workflows.\n3. Existing solutions often have a complex interface and do have way too many options of resume format that confuse the user.",
+            "technologies": [
+                "Next.js 15",
+                "TypeScript",
+                "Tailwind CSS",
+                "Postgres DB",
+                "React Hook Form",
+                "Gemini 2.0 API",
+                "Prisma ORM",
+                "Shadcn UI"
+            ],
+            "video": "https://www.youtube.com/embed/TJ8JYwKMTYU?si=T35OU4JaTq6xuexF",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.png"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.png"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.png"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Nishant Kumar Jena",
+                    "role": "Full Stack Web Developer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Asish Kumar Sahoo",
+                    "role": "MERN Stack Developer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Adyasha Sahoo",
+                    "role": "Frontend Developer"
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "logo": "t16.jpg",
+            "category": ["ai","fullstack"],
+            "title": "CLEAR CHECK",
+            "description": "Modern online assessments face sophisticated cheating tactics like hidden earpieces, secondary screens, remote access tools, and AI-powered environments. Traditional proctoring fails to detect these, risking academic integrity. Moreover, strict security measures can exclude disabled users, making exams unfair and inaccessible.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JAVASCRIPT",
+                "TAILWIND",
+                "DJANGO",
+                "FLASK API",
+                "MYSQL",
+                "PYTHON",
+                "TENSORFLOW",
+                "CV2",
+                "YOLO",
+                "CVZONE",
+                "WMI."
+            ],
+            "video": "https://www.youtube.com/embed/QAWMMAMiro0?si=Yzm4DoOg4Vn-cYm3",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.png"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Achint Kumar",
+                    "role": "Full Stack Developer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Ankit Raj",
+                    "role": "Full Stack Developer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Nikhil Kumar",
+                    "role": "Frontend Developer"
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "logo": "t17.png",
+            "category": ["mechanical"],
+            "title": "Forging with Torsion",
+            "description": "Forging done experimentally can sometimes produce errors, which is difficult to rectify since we are unaware of the material flow. Also experimentation is costly in some cases. One similar example is FWT.",
+            "technologies": [
+                "QForm"
+            ],
+            "video": "https://www.youtube.com/embed/rhIcGnk1wp8?si=BW059y1Uml-WRhKZ",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Abishanka Choudhury",
+                    "role": "Manager"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Dev Mallick",
+                    "role": "Information collector and analyzer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Pratik Ranjan Nayak",
+                    "role": "Information collector"
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "logo": "t18.png",
+            "category": ["ai","fullstack"],
+            "title": "ScrapDhan",
+            "description": "The scrap and waste management industry faces inefficiencies due to fluctuating prices, manual buyer-seller communication, unstandardized scrap classification, and insecure transactions. Households and industries struggle with proper scrap disposal, while industries lack a streamlined marketplace for bulk trading and efficient dealer notifications.",
+            "technologies": [
+                "Kotlin",
+                "Firebase Firestore",
+                "React",
+                "Tailwind",
+                "Google ML Kit",
+                "TensorFlow",
+                "RazorPay API",
+                "Google Maps API",
+                "Twilio"
+            ],
+            "video": "https://www.youtube.com/embed/GmZI7jzhrGo?si=-RVpAsfVBTPI5-w0",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Rameswar Bisoyi",
+                    "role": "Android App Developer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Pratik Kumar Panda",
+                    "role": "Web Developer(Back-End)"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Pruthiviraj Sahu",
+                    "role": "UI/UX & Front-End Developer"
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "logo": "t19.jpg",
+            "category": ["ai","surveillance"],
+            "title": "ASTRANET",
+            "description": "Drones are an increasing threat in modern and future warfare. They are used for surveillance, smuggling, and even carrying out attacks. Traditional defense systems using physical missiles are costly and inefficient against swarm drone attacks. There is an urgent need for a cost-effective and efficient anti-drone system",
+            "technologies": [
+                "Machine Learning & Deep Learning: YOLOv8 for real-time drone detection",
+                "Neural Networks for threat analysis\nComputer Vision: OpenCV for video processing",
+                "object tracking",
+                "motion detection\nEmbedded Systems: Arduino for laser targeting control",
+                "servo motor integration\nLaser Technology: High-precision laser module for drone neutralization\nWeb Dashboard: Flask-based interface for real-time monitoring",
+                "log analysis",
+                "remote control\nCommunication: Serial communication between Arduino and AI system for synchronized operation\nEdge Computing: On-device processing for faster threat detection and response"
+            ],
+            "video": "https://www.youtube.com/embed/p0mf6oxi5_8?si=UH_tGjzWjA1H39pN",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Swagat Pattnaik",
+                    "role": "Backend AI/ML Developer and IOT"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Satyabrata Kanungo",
+                    "role": "Database Management"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Prarthana Pattanaik",
+                    "role": "Frontend Developer using HTML CSS and JavaScript"
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "logo": "t20.png",
+            "category": ["iot","networking"],
+            "title": "N.O.D.E.S.",
+            "description": "In many remote, rural, or low-connectivity areas, access to digital resources, web applications, and IoT-based automation is severely limited due to the lack of reliable internet infrastructure. This creates challenges in education, industrial automation, healthcare, and data sharing, restricting technological advancements and efficient communication.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS",
+                "Node JS",
+                "React JS",
+                "Python",
+                "C",
+                "Assembly",
+                "PHP",
+                "MySQL",
+                "Flask",
+                "Apache",
+                "Llama-GPT",
+                "IOT",
+                "N.O.D.E.S. OS"
+            ],
+            "video": "https://www.youtube.com/embed/5CjxBQZiZ64?si=j8dImbf_1us__H_w",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Shreyash Mohapatra",
+                    "role": "Full-Stack Developer, System Architect, and Embedded Systems Engineer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Arpita Maharana",
+                    "role": "Full Stack Developer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Roshan Mohapatra",
+                    "role": "Full Stack Developer"
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "logo": "t21.png",
+            "category": ["fullstack","mobile"],
+            "title": "DUNKI",
+            "description": "In todays competitive world, small retailers struggle with limited visibility, high procurement costs, and inefficient order fulfillment. These challenges make it harder for them to attract customers, offer competitive pricing, and compete with larger businesses that have stronger resources, broader reach, and faster service.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JQuery",
+                "JavaScript",
+                "Bootstrap",
+                "React Native",
+                "MongoDB",
+                "Express.JS"
+            ],
+            "video": "https://www.youtube.com/embed/vhH5jRr04gw?si=4_lL891AxIwRg5N1",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpeg",
+                    "name": "Mimansa Satpathy",
+                    "role": "UI/UX Developer , Web-Frontend Developer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Sanat Sikhar Sinha",
+                    "role": "App Developer , Backend Developer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Bhagyashri Valecha",
+                    "role": "App Developer, Backend Developer"
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "logo": "t22.jpg",
+            "category": ["fullstack"],
+            "title": "Kisan-Seva",
+            "detail": "IoT-based home automation system with voice control",
+            "description": "Farmers face limited market access, financial illiteracy, and connectivity issues, preventing them from maximizing their income. Intermediaries take a significant share of their earnings, and many lack access to essential resources such as government schemes and financial support.",
+            "technologies": [
+                "React",
+                "Tailwind CSS",
+                "JavaScript",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "EJS",
+                "Bootstrap",
+                "Google Dialogflow",
+                "Vercel",
+                "ESP-32",
+                "Arduino IDE"
+            ],
+            "video": "https://www.youtube.com/embed/mrDIIqL5YWI?si=e8x8ca40r17nSps5",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Nishant Sankar Swain",
+                    "role": "Full Stack Developer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Priyanshu Gupta",
+                    "role": "Frontend Developer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Priyansu Pattanayak",
+                    "role": "Backend Developer"
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "logo": "t23.png",
+            "category": ["fullstack","blockchain"],
+            "title": "EthGroww",
+            "detail": "IoT-based home automation system with voice control",
+            "description": "Millions struggle to access credit due to strict documentation, high-interest rates, and inefficient processes. This exclusion deepens economic inequality, limiting opportunities for individuals and small businesses to improve their livelihoods.",
+            "technologies": [
+                "React.js ",
+                "Material UI ",
+                "Solidity ",
+                "Hardhat ",
+                "Node.js ",
+                "MongoDB ",
+                "Express.js ",
+                "CSS ",
+                "Ether.js"
+            ],
+            "video": "https://www.youtube.com/embed/-x7Uf451HOM?si=inBT2Lrh5hj5p32D",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.png"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.png"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.png"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.png",
+                    "name": "Harsh Raj",
+                    "role": "Blockchain Developer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.png",
+                    "name": "Abhilash Mishra",
+                    "role": "Backend Developer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.png",
+                    "name": "Sai Binayak",
+                    "role": "Frontend Developer"
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "logo": "t24.png",
+            "category": ["iot","surveillance"],
+            "title": "Red2Green",
+            "description": "Urban traffic congestion causes delays, pollution, and inefficiencies. Traditional systems are slow and centralized. A real-time, AI-driven edge computing solution is needed to optimize traffic flow, reduce stops, and enhance roadsafety.",
+            "technologies": [
+                "Arduino IDE",
+                "OpenCV",
+                "Python",
+                "Jupyter Notebook",
+                "Canva",
+                "Eclipse SUMO",
+                "YOLO Object Detection",
+                "Firebase Cloud Storage"
+            ],
+            "video": "https://www.youtube.com/embed/jCpl0XG9luM?si=6zhvyEdgWX_fMDu-",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Harish Kumar Mahto",
+                    "role": "IoT,  Edge Computing Lead"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Surbhi Kumari",
+                    "role": "Algorithm, AI Developer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Tanushree Panigrahi",
+                    "role": "Traffic Simulation Lead"
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "logo": "t25.png",
+            "category": ["ai"],
+            "title": "DeepGuard",
+            "detail": "IoT-based home automation system with voice control",
+            "description": "Deepfakes are AI-generated media that manipulate videos or images to mimic real people, often indistinguishable from authentic content. While useful in entertainment, they pose threats like misinformation and fraud. This project develops an AI-driven detection system to identify and prevent the misuse of deepfake technology.",
+            "technologies": [
+                "React",
+                "Tailwind",
+                "JavaScript",
+                "OpenCV",
+                "PyTorch\n"
+            ],
+            "video": "https://www.youtube.com/embed/hXpQNBLgjtY?si=zjpxzeMQV7OOw31M",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpeg",
+                    "name": "Arpit Mishra",
+                    "role": "Backend Developer and Model Integration"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Anshuman Mishra",
+                    "role": "Frontend Developer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Ashish Dash",
+                    "role": "Backend Developer and Model Integration"
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "logo": "t26.png",
+            "category": ["mechanical"],
+            "title": "Splen Electric",
+            "description": "The growing demand for electric vehicles and energy storage has surged the need for efficient, high-performance batteries. Lithium-ion batteries, known for their superior energy density and longevity, dominate the market. However, high production costs and supply chain constraints pose challenges to widespread affordability and accessibility.",
+            "technologies": [
+                "Lithium-Ion Battery Technology",
+                "Battery Management System (BMS)",
+                "Electric Hub Motor",
+                "Regenerative Braking",
+                "Custom Chassis Design",
+                "CNC Machining",
+                "3D Printing for Prototyping",
+                "Smart Anti-Theft Locking System",
+                "Power Electronics (Motor Controller & Inverter)",
+                "Aerodynamic Optimization",
+                "Sustainable Material Sourcing."
+            ],
+            "video": "https://www.youtube.com/embed/2NUILdP_Has?si=uX5w9KCAQaDPrk7B",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Srijan Bhushan",
+                    "role": "Modelling and analysing"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Ratiranjan Panda",
+                    "role": "Designing and prototyping"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Rajesh Parida",
+                    "role": "Manufacturing and testing"
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "logo": "t27.png",
+            "category": ["mechanical"],
+            "title": "Mo-Shield Airbags",
+            "description": "Two-wheeler road accidents often result in serious injuries or fatalities due to the lack of protective safety features, such as airbags. Despite helmets and protective gear, these are insufficient in high-impact situations. The challenge lies in developing effective airbag systems that enhance rider safety while maintaining vehicle performance, affordability, and user convenience.",
+            "technologies": [
+                "Synchronization of Sensor with ECU",
+                "Deployment of Airbags",
+                "Chemical Reactions Involvement",
+                "Polymer coating on Nylon 66."
+            ],
+            "video": "https://www.youtube.com/embed/NFhM2hRJLk8?si=epqT8ZmQQSoSDgB1",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Anurag Giri",
+                    "role": "Researcher"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "SK Asif Zamal",
+                    "role": "Analyst"
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "logo": "t28.jpg",
+            "category": ["fullstack"],
+            "title": "Ekaayam",
+            "detail": "IoT-based home automation system with voice control",
+            "description": "Major event platforms like Paytm Insider and BookMyShow focus only on large, paid events, leaving local and free events without proper visibility. Additionally, users lack a single platform to book restaurants, entertainment spots, courses, mentorships, and marketing services efficiently.",
+            "technologies": [
+                "Flask",
+                "Gunicorn",
+                "Apache",
+                "NGINX",
+                "NodeJs",
+                "Firebase",
+                "SQLAlchemy",
+                "PIL",
+                "Tensorflow",
+                "Keras",
+                "SkLearn",
+                "Numpy",
+                "CUDA",
+                "CUDNN",
+                "ReactJs",
+                "Tailwind",
+                "CSS",
+                "Bootstrap5",
+                "Axios",
+                "AppScript."
+            ],
+            "video": "video.mp4",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "sample.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "sample.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "sample.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Balaji Aryan Singh",
+                    "role": "Full-Stack Developer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Anirban Bose",
+                    "role": "Full-Stack Developer"
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "logo": "t29.png",
+            "category": ["ai","fullstack"],
+            "title": "LLMinds",
+            "description": "Users today interact with various Large Language Models (LLMs), each have distinct strengths, limitations, and response styles. Relying on a single model can lead to incomplete or biased answers.\u200b However, comparing outputs from multiple models can be a time-consuming process, often leading to inconsistent insights and challenges in identifying the most accurate or optimal solutions.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "FastAPI",
+                "Pydantic",
+                "SQLAlchemy",
+                "SQLite",
+                "Alembic",
+                "JWT",
+                "OAuth2",
+                "Bcrypt",
+                "OpenRouter API",
+                "HTTPX",
+                "Asyncio"
+            ],
+            "video": "video.mp4",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "sample.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "sample.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "sample.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Anish Kumar",
+                    "role": "Backend Developer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Ankita Rout",
+                    "role": "Frontend Developer"
+                }
+            ]
+        }
+    ]
+}

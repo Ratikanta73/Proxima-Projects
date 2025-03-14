@@ -990,7 +990,7 @@
         {
             "id": "20",
             "logo": "t20.png",
-            "category": ["iot","networking","System Programming","IOT","Full Stack"],
+            "category": ["iot","networking","System","IOT","Full Stack"],
             "title": "N.O.D.E.S.",
             "description": "In many remote, rural, or low-connectivity areas, access to digital resources, web applications, and IoT-based automation is severely limited due to the lack of reliable internet infrastructure. This creates challenges in education, industrial automation, healthcare, and data sharing, restricting technological advancements and efficient communication.",
             "technologies": [

@@ -809,14 +809,14 @@
                     "id": "1",
                     "image": "g1.jpg"
                 },
-                {
-                    "id": "2",
-                   "image": "g1.jpg"
-                },
-                {
-                    "id": "3",
-                   "image": "g1.jpg"
-                }
+                // {
+                //     "id": "2",
+                //    "image": "g1.jpg"
+                // },
+                // {
+                //     "id": "3",
+                //    "image": "g1.jpg"
+                // }
             ],
             "developers": [
                 {

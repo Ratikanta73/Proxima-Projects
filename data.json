@@ -481,7 +481,8 @@
             "gallery": [
                 {
                     "id": "1",
-                    "image": "g1.png"
+                    "image": "g2.jpg"
+                    // "image": "g1.png"
                 },
                 {
                     "id": "2",

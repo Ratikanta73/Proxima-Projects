@@ -1335,15 +1335,15 @@
             "gallery": [
                 {
                     "id": "1",
-                    "image": "g1.jpg"
+                    "image": "a1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "g2.jpg"
+                    "image": "a2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "g3.jpg"
+                    "image": "a3.jpg"
                 }
             ],
             "developers": [

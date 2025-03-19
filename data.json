@@ -811,11 +811,11 @@
                 },
                 {
                     "id": "2",
-                    "image": "g2.jpg"
+                   "image": "g1.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "g3.png"
+                    "image": "g1.jpg"
                 }
             ],
             "developers": [

@@ -1335,15 +1335,15 @@
             "gallery": [
                 {
                     "id": "1",
-                    "image": "a1.jpg"
+                    "image": "g1.JPG"
                 },
                 {
                     "id": "2",
-                    "image": "a2.jpg"
+                    "image": "g2.JPG"
                 },
                 {
                     "id": "3",
-                    "image": "a3.jpg"
+                    "image": "g3.JPG"
                 }
             ],
             "developers": [
@@ -1383,15 +1383,15 @@
             "gallery": [
                 {
                     "id": "1",
-                    "image": "g1.jpg"
+                    "image": "g1.JPG"
                 },
                 {
                     "id": "2",
-                    "image": "g2.jpg"
+                    "image": "g2.JPG"
                 },
                 {
                     "id": "3",
-                    "image": "g3.jpg"
+                    "image": "g3.JPG"
                 }
             ],
             "developers": [

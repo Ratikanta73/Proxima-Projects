@@ -1410,6 +1410,58 @@
             ]
         },
         {
+            "id": "28",
+            "logo": "t28.jpg",
+            "category": ["ai","fullstack"],
+            "title": "LLMinds",
+            "description": "Users today interact with various Large Language Models (LLMs), each have distinct strengths, limitations, and response styles. Relying on a single model can lead to incomplete or biased answers.\u200b However, comparing outputs from multiple models can be a time-consuming process, often leading to inconsistent insights and challenges in identifying the most accurate or optimal solutions.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "FastAPI",
+                "Pydantic",
+                "SQLAlchemy",
+                "SQLite",
+                "Alembic",
+                "JWT",
+                "OAuth2",
+                "Bcrypt",
+                "OpenRouter API",
+                "HTTPX",
+                "Asyncio"
+            ],
+            "video": "video.mp4",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "g1.JPG"
+                },
+                {
+                    "id": "2",
+                    "image": "g2.JPG"
+                },
+                {
+                    "id": "3",
+                    "image": "g3.JPG"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image": "1.jpg",
+                    "name": "Anish Kumar",
+                    "role": "Backend Developer"
+                },
+                {
+                    "id": "2",
+                    "image": "2.jpg",
+                    "name": "Ankita Rout",
+                    "role": "Frontend Developer"
+                }
+            ]
+        },
+        {
             "id": "29",
             "logo": "t29.png",
             "category": ["fullstack"],
@@ -1465,58 +1517,6 @@
                     "image": "2.jpg",
                     "name": "Anirban Bose",
                     "role": "Full-Stack Developer"
-                }
-            ]
-        },
-        {
-            "id": "28",
-            "logo": "t28.jpg",
-            "category": ["ai","fullstack"],
-            "title": "LLMinds",
-            "description": "Users today interact with various Large Language Models (LLMs), each have distinct strengths, limitations, and response styles. Relying on a single model can lead to incomplete or biased answers.\u200b However, comparing outputs from multiple models can be a time-consuming process, often leading to inconsistent insights and challenges in identifying the most accurate or optimal solutions.",
-            "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "FastAPI",
-                "Pydantic",
-                "SQLAlchemy",
-                "SQLite",
-                "Alembic",
-                "JWT",
-                "OAuth2",
-                "Bcrypt",
-                "OpenRouter API",
-                "HTTPX",
-                "Asyncio"
-            ],
-            "video": "video.mp4",
-            "gallery": [
-                {
-                    "id": "1",
-                    "image": "sample.jpg"
-                },
-                {
-                    "id": "2",
-                    "image": "sample.jpg"
-                },
-                {
-                    "id": "3",
-                    "image": "sample.jpg"
-                }
-            ],
-            "developers": [
-                {
-                    "id": "1",
-                    "image": "1.jpg",
-                    "name": "Anish Kumar",
-                    "role": "Backend Developer"
-                },
-                {
-                    "id": "2",
-                    "image": "2.jpg",
-                    "name": "Ankita Rout",
-                    "role": "Frontend Developer"
                 }
             ]
         }

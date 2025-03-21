@@ -798,6 +798,63 @@ nav {
     height: 6rem;
 }
 
+/* Add these to your style.css file */
+
+/* Button states */
+.submit-btn.loading {
+    background-color: #888;
+    pointer-events: none;
+}
+
+.submit-btn.success {
+    background-color: #27ae60;
+}
+
+.submit-btn.error {
+    background-color: #e74c3c;
+}
+
+/* Message styles */
+.form-message {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    animation: fadeIn 0.5s ease;
+}
+
+.form-message-success {
+    background-color: rgba(39, 174, 96, 0.1);
+    color: #27ae60;
+    border: 1px solid #27ae60;
+}
+
+.form-message-error {
+    background-color: rgba(231, 76, 60, 0.1);
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+}
+
+.form-message-fadeout {
+    animation: fadeOut 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(-10px); }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-5px); }
+    40%, 80% { transform: translateX(5px); }
+}
+
 /* Responsive Design */
 @media screen and (max-width: 1024px) {
     .project-cards, .grid{
